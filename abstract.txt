@@ -1,0 +1,143 @@
+# DataLoader
+## Step1 create dataset
+after loading the transform function, operate it on the dataset in creating dataset.
+
+## Step2
+
+
+# Model
+
+# Training Script
+#wavelets=("coif3" "db1" "coif1" "bior2.2" "rbio3.5")
+
+#========================================  db1 ============================================
+python TrainingScript.py --q 2 --wavelet db1 --epoch 10 --dataset_name NTU-Fi-HumanID --gpu 1 &
+python TrainingScript.py --q 3 --wavelet db1 --epoch 10 --dataset_name NTU-Fi-HumanID --gpu 2 &
+python TrainingScript.py --q 4 --wavelet db1 --epoch 10 --dataset_name NTU-Fi-HumanID --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet db1 --epoch 20 --dataset_name NTU-Fi-HumanID --gpu 4 &
+python TrainingScript.py --q 3 --wavelet db1 --epoch 20 --dataset_name NTU-Fi-HumanID --gpu 5 &
+python TrainingScript.py --q 4 --wavelet db1 --epoch 20 --dataset_name NTU-Fi-HumanID --gpu 6 &
+
+python TrainingScript.py --q 2 --wavelet db1 --epoch 30 --dataset_name NTU-Fi-HumanID --gpu 1 &
+python TrainingScript.py --q 3 --wavelet db1 --epoch 30 --dataset_name NTU-Fi-HumanID --gpu 2 &
+python TrainingScript.py --q 4 --wavelet db1 --epoch 30 --dataset_name NTU-Fi-HumanID --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet db1 --epoch 50 --dataset_name NTU-Fi-HumanID --gpu 4 &
+python TrainingScript.py --q 3 --wavelet db1 --epoch 50 --dataset_name NTU-Fi-HumanID --gpu 5 &
+python TrainingScript.py --q 4 --wavelet db1 --epoch 50 --dataset_name NTU-Fi-HumanID --gpu 6 &
+
+python TrainingScript.py --q 2 --wavelet db1 --epoch 10 --dataset_name NTU-Fi_HAR --gpu 1 &
+python TrainingScript.py --q 3 --wavelet db1 --epoch 10 --dataset_name NTU-Fi_HAR --gpu 2 &
+python TrainingScript.py --q 4 --wavelet db1 --epoch 10 --dataset_name NTU-Fi_HAR --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet db1 --epoch 20 --dataset_name NTU-Fi_HAR --gpu 4 &
+python TrainingScript.py --q 3 --wavelet db1 --epoch 20 --dataset_name NTU-Fi_HAR --gpu 5 &
+python TrainingScript.py --q 4 --wavelet db1 --epoch 20 --dataset_name NTU-Fi_HAR --gpu 6 &
+
+python TrainingScript.py --q 2 --wavelet db1 --epoch 30 --dataset_name NTU-Fi_HAR --gpu 1 &
+python TrainingScript.py --q 3 --wavelet db1 --epoch 30 --dataset_name NTU-Fi_HAR --gpu 2 &
+python TrainingScript.py --q 4 --wavelet db1 --epoch 30 --dataset_name NTU-Fi_HAR --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet db1 --epoch 50 --dataset_name NTU-Fi_HAR --gpu 4 &
+python TrainingScript.py --q 3 --wavelet db1 --epoch 50 --dataset_name NTU-Fi_HAR --gpu 5 &
+python TrainingScript.py --q 4 --wavelet db1 --epoch 50 --dataset_name NTU-Fi_HAR --gpu 6
+
+#========================================= coif3  ======================================
+python TrainingScript.py --q 2 --wavelet coif3 --epoch 10 --dataset_name NTU-Fi-HumanID --gpu 1 &
+python TrainingScript.py --q 3 --wavelet coif3 --epoch 10 --dataset_name NTU-Fi-HumanID --gpu 2 &
+python TrainingScript.py --q 4 --wavelet coif3 --epoch 10 --dataset_name NTU-Fi-HumanID --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet coif3 --epoch 20 --dataset_name NTU-Fi-HumanID --gpu 4 &
+python TrainingScript.py --q 3 --wavelet coif3 --epoch 20 --dataset_name NTU-Fi-HumanID --gpu 5 &
+python TrainingScript.py --q 4 --wavelet coif3 --epoch 20 --dataset_name NTU-Fi-HumanID --gpu 6 &
+
+python TrainingScript.py --q 2 --wavelet coif3 --epoch 30 --dataset_name NTU-Fi-HumanID --gpu 1 &
+python TrainingScript.py --q 3 --wavelet coif3 --epoch 30 --dataset_name NTU-Fi-HumanID --gpu 2 &
+python TrainingScript.py --q 4 --wavelet coif3 --epoch 30 --dataset_name NTU-Fi-HumanID --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet coif3 --epoch 50 --dataset_name NTU-Fi-HumanID --gpu 4 &
+python TrainingScript.py --q 3 --wavelet coif3 --epoch 50 --dataset_name NTU-Fi-HumanID --gpu 5 &
+python TrainingScript.py --q 4 --wavelet coif3 --epoch 50 --dataset_name NTU-Fi-HumanID --gpu 6 &
+
+python TrainingScript.py --q 2 --wavelet coif3 --epoch 10 --dataset_name NTU-Fi_HAR --gpu 1 &
+python TrainingScript.py --q 3 --wavelet coif3 --epoch 10 --dataset_name NTU-Fi_HAR --gpu 2 &
+python TrainingScript.py --q 4 --wavelet coif3 --epoch 10 --dataset_name NTU-Fi_HAR --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet coif3 --epoch 20 --dataset_name NTU-Fi_HAR --gpu 4 &
+python TrainingScript.py --q 3 --wavelet coif3 --epoch 20 --dataset_name NTU-Fi_HAR --gpu 5 &
+python TrainingScript.py --q 4 --wavelet coif3 --epoch 20 --dataset_name NTU-Fi_HAR --gpu 6 &
+
+python TrainingScript.py --q 2 --wavelet coif3 --epoch 30 --dataset_name NTU-Fi_HAR --gpu 1 &
+python TrainingScript.py --q 3 --wavelet coif3 --epoch 30 --dataset_name NTU-Fi_HAR --gpu 2 &
+python TrainingScript.py --q 4 --wavelet coif3 --epoch 30 --dataset_name NTU-Fi_HAR --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet coif3 --epoch 50 --dataset_name NTU-Fi_HAR --gpu 4 &
+python TrainingScript.py --q 3 --wavelet coif3 --epoch 50 --dataset_name NTU-Fi_HAR --gpu 5 &
+python TrainingScript.py --q 4 --wavelet coif3 --epoch 50 --dataset_name NTU-Fi_HAR --gpu 6
+
+#========================================  bior2.2 ============================================
+python TrainingScript.py --q 2 --wavelet bior2.2 --epoch 10 --dataset_name NTU-Fi-HumanID --gpu 1 &
+python TrainingScript.py --q 3 --wavelet bior2.2 --epoch 10 --dataset_name NTU-Fi-HumanID --gpu 2 &
+python TrainingScript.py --q 4 --wavelet bior2.2 --epoch 10 --dataset_name NTU-Fi-HumanID --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet bior2.2 --epoch 20 --dataset_name NTU-Fi-HumanID --gpu 4 &
+python TrainingScript.py --q 3 --wavelet bior2.2 --epoch 20 --dataset_name NTU-Fi-HumanID --gpu 5 &
+python TrainingScript.py --q 4 --wavelet bior2.2 --epoch 20 --dataset_name NTU-Fi-HumanID --gpu 6 &
+
+python TrainingScript.py --q 2 --wavelet bior2.2 --epoch 30 --dataset_name NTU-Fi-HumanID --gpu 1 &
+python TrainingScript.py --q 3 --wavelet bior2.2 --epoch 30 --dataset_name NTU-Fi-HumanID --gpu 2 &
+python TrainingScript.py --q 4 --wavelet bior2.2 --epoch 30 --dataset_name NTU-Fi-HumanID --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet bior2.2 --epoch 50 --dataset_name NTU-Fi-HumanID --gpu 1 &
+python TrainingScript.py --q 3 --wavelet bior2.2 --epoch 50 --dataset_name NTU-Fi-HumanID --gpu 2 &
+python TrainingScript.py --q 4 --wavelet bior2.2 --epoch 50 --dataset_name NTU-Fi-HumanID --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet bior2.2 --epoch 10 --dataset_name NTU-Fi_HAR --gpu 1 &
+python TrainingScript.py --q 3 --wavelet bior2.2 --epoch 10 --dataset_name NTU-Fi_HAR --gpu 2 &
+python TrainingScript.py --q 4 --wavelet bior2.2 --epoch 10 --dataset_name NTU-Fi_HAR --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet bior2.2 --epoch 20 --dataset_name NTU-Fi_HAR --gpu 4 &
+python TrainingScript.py --q 3 --wavelet bior2.2 --epoch 20 --dataset_name NTU-Fi_HAR --gpu 5 &
+python TrainingScript.py --q 4 --wavelet bior2.2 --epoch 20 --dataset_name NTU-Fi_HAR --gpu 6 &
+
+python TrainingScript.py --q 2 --wavelet bior2.2 --epoch 30 --dataset_name NTU-Fi_HAR --gpu 1 &
+python TrainingScript.py --q 3 --wavelet bior2.2 --epoch 30 --dataset_name NTU-Fi_HAR --gpu 2 &
+python TrainingScript.py --q 4 --wavelet bior2.2 --epoch 30 --dataset_name NTU-Fi_HAR --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet bior2.2 --epoch 50 --dataset_name NTU-Fi_HAR --gpu 4 &
+python TrainingScript.py --q 3 --wavelet bior2.2 --epoch 50 --dataset_name NTU-Fi_HAR --gpu 5 &
+python TrainingScript.py --q 4 --wavelet bior2.2 --epoch 50 --dataset_name NTU-Fi_HAR --gpu 6
+
+#========================================  rbio3.5 ============================================
+python TrainingScript.py --q 2 --wavelet rbio3.5 --epoch 10 --dataset_name NTU-Fi-HumanID --gpu 1 &
+python TrainingScript.py --q 3 --wavelet rbio3.5 --epoch 10 --dataset_name NTU-Fi-HumanID --gpu 2 &
+python TrainingScript.py --q 4 --wavelet rbio3.5 --epoch 10 --dataset_name NTU-Fi-HumanID --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet rbio3.5 --epoch 20 --dataset_name NTU-Fi-HumanID --gpu 4 &
+python TrainingScript.py --q 3 --wavelet rbio3.5 --epoch 20 --dataset_name NTU-Fi-HumanID --gpu 5 &
+python TrainingScript.py --q 4 --wavelet rbio3.5 --epoch 20 --dataset_name NTU-Fi-HumanID --gpu 6 &
+
+python TrainingScript.py --q 2 --wavelet rbio3.5 --epoch 30 --dataset_name NTU-Fi-HumanID --gpu 1 &
+python TrainingScript.py --q 3 --wavelet rbio3.5 --epoch 30 --dataset_name NTU-Fi-HumanID --gpu 2 &
+python TrainingScript.py --q 4 --wavelet rbio3.5 --epoch 30 --dataset_name NTU-Fi-HumanID --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet rbio3.5 --epoch 50 --dataset_name NTU-Fi-HumanID --gpu 4 &
+python TrainingScript.py --q 3 --wavelet rbio3.5 --epoch 50 --dataset_name NTU-Fi-HumanID --gpu 5 &
+python TrainingScript.py --q 4 --wavelet rbio3.5 --epoch 50 --dataset_name NTU-Fi-HumanID --gpu 6 &
+
+python TrainingScript.py --q 2 --wavelet rbio3.5 --epoch 10 --dataset_name NTU-Fi_HAR --gpu 1 &
+python TrainingScript.py --q 3 --wavelet rbio3.5 --epoch 10 --dataset_name NTU-Fi_HAR --gpu 2 &
+python TrainingScript.py --q 4 --wavelet rbio3.5 --epoch 10 --dataset_name NTU-Fi_HAR --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet rbio3.5 --epoch 20 --dataset_name NTU-Fi_HAR --gpu 4 &
+python TrainingScript.py --q 3 --wavelet rbio3.5 --epoch 20 --dataset_name NTU-Fi_HAR --gpu 5 &
+python TrainingScript.py --q 4 --wavelet rbio3.5 --epoch 20 --dataset_name NTU-Fi_HAR --gpu 6 &
+
+python TrainingScript.py --q 2 --wavelet rbio3.5 --epoch 30 --dataset_name NTU-Fi_HAR --gpu 1 &
+python TrainingScript.py --q 3 --wavelet rbio3.5 --epoch 30 --dataset_name NTU-Fi_HAR --gpu 2 &
+python TrainingScript.py --q 4 --wavelet rbio3.5 --epoch 30 --dataset_name NTU-Fi_HAR --gpu 3 &
+
+python TrainingScript.py --q 2 --wavelet rbio3.5 --epoch 50 --dataset_name NTU-Fi_HAR --gpu 4 &
+python TrainingScript.py --q 3 --wavelet rbio3.5 --epoch 50 --dataset_name NTU-Fi_HAR --gpu 5 &
+python TrainingScript.py --q 4 --wavelet rbio3.5 --epoch 50 --dataset_name NTU-Fi_HAR --gpu 6
